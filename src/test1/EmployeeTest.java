@@ -32,6 +32,15 @@ public class EmployeeTest  {
 		System.out.println("until page 50 not yet");
 		System.out.println("Public Access Modifier - public");
 		empOne.operator();
+		
+		//added on 09/04/2018.
+		int a , b;
+		a =10;
+		b =(a ==1)?20:30;
+		System.out.println("Value of b is : "+ b );
+		b =(a ==10)?20:30;
+		System.out.println("Value of b is : "+ b );
+		
 		}
 		
 		
