@@ -41,6 +41,10 @@ public class EmployeeTest  {
 		b =(a ==10)?20:30;
 		System.out.println("Value of b is : "+ b );
 		
+		//added on 10/04/2018.		
+		boolean resu = empTwo instanceof Employee;
+		System.out.println("resu = "+ resu);		
+		
 		}
 		
 		
